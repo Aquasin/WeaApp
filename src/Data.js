@@ -8,13 +8,15 @@ const Data = ({ info }) => {
 		<article>
 			<h2>Weather Data</h2>
 			<p>
-				Temperature is <span>{temp}</span> K
+				Temperature is{" "}
+				<span>{Math.round((temp - 273.15) * 100) / 100}</span> &deg;C
 			</p>
 			<p>
 				Humidity is <span>{humidity}</span> %
 			</p>
 			<p>
-				Pressure is <span>{pressure}</span> hPa
+				Pressure is{" "}
+				<span>{Math.round((pressure * 10000) / 101325) / 100}</span> atm
 			</p>
 		</article>
 	);

@@ -2,7 +2,9 @@ const Toast = (msg) => {
 	var toast = document.getElementById("hidden");
 	toast.className = "show";
 	toast.innerText = msg;
-	toast.style.backgroundColor = "#bd2130";
+	if (msg === "Wrong City Name Entered") {
+		toast.style.backgroundColor = "#bd2130";
+	}
 	if (msg === "Data Found") {
 		toast.style.backgroundColor = "#28a745";
 	}
