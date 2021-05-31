@@ -13,7 +13,7 @@ code {
 }
 
 .container {
-	width: 58rem;
+	width: 60vw;
 	margin: 2rem auto;
 	color: #f1f1f1;
 	background-color: #242424;
@@ -40,13 +40,14 @@ code {
 label,
 input,
 button {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 button {
 	background-color: #0000ff;
 	color: #f1f1f1;
-	margin: 0 1rem;
+	margin: 1rem auto;
+	width: 100%;
 }
 
 #hidden {
@@ -54,7 +55,7 @@ button {
 	min-width: 250px;
 	bottom: 30px;
 	text-align: center;
-	padding: 1rem;
+	padding: 1rem 0;
 	border-radius: 2px;
 	left: 50%;
 	margin-left: -125px;
@@ -64,4 +65,17 @@ button {
 
 #hidden.show {
 	visibility: visible;
+}
+
+@media screen and (min-width: 860px) {
+	label,
+	input,
+	button {
+		font-size: 1.5rem;
+	}
+
+	button {
+		margin: 1rem 1rem;
+		width: 200px;
+	}
 }
