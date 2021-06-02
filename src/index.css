@@ -12,6 +12,27 @@ code {
 		monospace;
 }
 
+.home p {
+	font-size: 1.5rem;
+}
+
+nav {
+	background-color: #242424;
+	display: flex;
+	justify-content: space-evenly;
+	min-height: 10vh;
+	align-items: center;
+	font-family: monospace, sans-serif;
+}
+
+nav .nav-links {
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
 .container {
 	width: 60vw;
 	margin: 2rem auto;
@@ -35,6 +56,15 @@ code {
 
 .container span {
 	color: #bb86fc;
+}
+
+article {
+	width: 90%;
+	margin: 0 auto;
+}
+
+article h2 {
+	text-align: center;
 }
 
 label,
@@ -61,6 +91,7 @@ button {
 	margin-left: -125px;
 	position: fixed;
 	background-color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 #hidden.show {
