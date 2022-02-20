@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: wea-app.netlify.app
+Token: 4d94b944860b35ebf35de09d50ffa3137da2f960d09f5885534c716ad381ff19
